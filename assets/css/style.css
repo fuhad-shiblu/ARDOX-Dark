@@ -1,0 +1,228 @@
+/* ===== Common CSS Part Start ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,li{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --roboto: "Roboto", sans-serif;
+    --inter: "Inter", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #000 !important;
+}
+/* ===== Common CSS Part End ===== */
+
+/* ===== Navbar CSS Part Start ===== */
+nav{
+    margin-top: 34px;
+}
+.btns a{
+    width: 81px;
+    height: 38.64px;
+    font-size: 20px;
+    font-family: var(--roboto);
+    font-weight: 600;
+    color: #fff;
+    margin-right: 43px;
+    position: relative;
+    text-align: center;
+    line-height: 38.64px;
+    border-radius: 18px;
+    transition: all linear .1s;
+}
+.btns a::after{
+    content: '';
+    width: 22.5px;
+    height: 2.5px;
+    position: absolute;
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btns a:hover{
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+}
+/* ===== Navbar CSS Part End ===== */
+
+/* ===== Login CSS Part Start ===== */
+.loginBotImg img{
+    width: 587px;
+    height: 770.1px;
+    margin-top: 181.36px;
+}
+.loginForm{
+    width: 373px;
+    margin-top: 169.36px;
+}
+.loginForm form h1{
+    width: 100%;
+    font-size: 36px;
+    font-family: var(--roboto);
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+.loginForm form h1 span{
+    display: block;
+}
+.inputMail{
+    margin-top: 58px;
+}
+.inputPass{
+    margin-top: 22px;
+}
+.loginForm form input{
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 18px 0 17px 27px;
+    font-size: 22px;
+    font-weight: 300px;
+    font-family: var(--roboto);
+    color: #5E5E5E;
+}
+.loginForm form input::placeholder{
+    color: #5E5E5E;
+}
+.forPass{
+    font-size: 18px;
+    font-family: var(--roboto);
+    font-weight: 200;
+    color: #fff;
+    text-align: end;
+    display: block;
+    margin-top: 9px;
+}
+.forPass:hover{
+    text-decoration: underline !important;
+}
+.formBtns{
+    width: 100%;
+    margin-top: 47px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: var(--roboto);
+    color: #000;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 8px;
+    padding: 17px;
+    transition: all linear .1s;
+}
+.formBtns:hover{
+    transform: scale(.9);
+}
+.formBtns:active{
+    transform: scale(1.1);
+}
+.orConWith{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 36px;
+    position: relative;
+}
+.orConWith::before{
+    content: '';
+    width: 101px;
+    height: 1px;
+    background: #EDEDED;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.orConWith::after{
+    content: '';
+    width: 101px;
+    height: 1px;
+    background: #EDEDED;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.sclBtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 47px;
+}
+.sclBtns a{
+    width: 87px;
+    height: 52px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: all linear .1s;
+}
+.sclBtns a:hover{
+    transform: scale(1.1);
+}
+.sclBtns a:active{
+    transform: scale(.9);
+}
+.dontAccnt{
+    margin-top: 47px;
+    font-size: 20px;
+    font-family: var(--roboto);
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.crtAccnt{
+    font-weight: 900;
+    color: #fff;
+}
+.crtAccnt:hover{
+    text-decoration: underline !important;
+}
+/* ===== Login CSS Part End ===== */
+
+/* ===== Footer CSS Part Start ===== */
+footer{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #fff;
+}
+.redHeart{
+    color: #ff0000;
+}
+footer a{
+    font-weight: 600;
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: underline !important;
+}
+/* ===== Footer CSS Part End ===== */
