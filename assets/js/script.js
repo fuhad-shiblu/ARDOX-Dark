@@ -4,10 +4,10 @@ let inputPass   = document.querySelector('.inputPass');
 let passErr     = document.querySelector('.passErr');
 let formBtns    = document.querySelector('.formBtns');
 
-// document.addEventListener('contextmenu' , (e)=>{
-//     e.preventDefault()
-//     location.reload();
-// })
+document.addEventListener('contextmenu' , (e)=>{
+    e.preventDefault()
+    location.reload();
+})
 
 formBtns.addEventListener('click' , (e)=>{
     e.preventDefault()
